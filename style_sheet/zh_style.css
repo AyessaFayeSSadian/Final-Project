@@ -1,0 +1,50 @@
+body {
+    background-color: #B8860B; 
+    background: linear-gradient(to right, #B8860B, #DAA520, #FFBF00);
+    background-attachment: fixed;
+    font-family: Verdana, sans-serif;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+}
+
+h2 {
+     font-size: 25px;
+}
+
+p {
+    font-size: 13px;
+}
+
+a {
+    color: #FFFFFF; 
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FAC234; 
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+img {
+    float: right;
+    height: 450px;
+    width: 400px;
+    margin-left: 20px;
+}
+
+div {
+    margin: 20px;
+    padding: 20px;
+}

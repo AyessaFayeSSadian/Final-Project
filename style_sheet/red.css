@@ -1,0 +1,51 @@
+body {
+    background-color: #CEDCCA;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: #69A765;
+    text-align: left;
+    font-size: 55px;
+    font-family: "Arial Black", sans-serif; 
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+h2 {
+    color: white;
+    text-align: left;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    color: white;
+    text-align: left;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-top: 20px;
+   
+}
+
+
+.image-container a {
+    width: 33%; 
+    text-align: center;
+}
+
+
+img {
+    width: 450px;
+    height: 450px;
+}
+
+img {
+  border-radius: 50%;
+}

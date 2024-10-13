@@ -1,0 +1,51 @@
+body {
+    background: linear-gradient(to right, #32612D, #74B72E, #AEF359); 
+    background-attachment: fixed;
+    font-family: Verdana, sans-serif;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    
+}
+
+h2 {
+     font-size: 25px;
+}
+
+p {
+    font-size: 13px;
+}
+
+a {
+    color: #FFFFFF; 
+    text-decoration: none;
+}
+
+a:hover {
+    color: #AAFC58; 
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+img {
+    float: right;
+    height: 450px;
+    width: 450px;
+    margin-left: 20px;
+    margin-bottom:50px;
+}
+
+div {
+    margin: 20px;
+    padding: 20px;
+}
