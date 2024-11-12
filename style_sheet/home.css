@@ -29,16 +29,6 @@ body {
       margin-right:50px;
     }
 
-    img {
-    float: right;
-    height: 550px;
-    width: 500px;
-    margin-left: 280px;
-    margin-right:75px;
-    }
-
-
-
   ul {
   list-style-type: none;
   margin-right: 150px;
@@ -70,3 +60,11 @@ li a {
 li a:hover:not(.active) {
   background-color: #BC544B;
 }
+
+  img {
+    float: right;
+    height: 550px;
+    width: 500px;
+    margin-left: 280px;
+    margin-right:75px;
+    }

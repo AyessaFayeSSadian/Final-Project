@@ -37,14 +37,15 @@ li {
     margin-bottom: 20px;
 }
 
-img {
-    float: right;
-    height: 450px;
-    width: 400px;
-    margin-left: 20px;
-}
-
 div {
     margin: 20px;
     padding: 20px;
+}
+
+.vsprite {
+	background: url('../wireframe_imgs/css_sprites.png') no-repeat -1972px -1015px;
+	float: right;
+        height: 450px;
+        width: 400px;
+        margin-left: 120px;
 }

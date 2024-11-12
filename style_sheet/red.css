@@ -28,8 +28,7 @@ p {
 
 .image-container {
     display: flex;
-    justify-content: space-between; 
-    align-items: center;
+    justify-content: center; 
     margin-top: 20px;
    
 }
@@ -48,4 +47,30 @@ img {
 
 img {
   border-radius: 50%;
+}
+
+.vsprite {
+	background: url('../wireframe_imgs/css_sprites.png') no-repeat -1972px -1015px;
+	height: 450px;
+        width: 400px;
+        margin-left: 120px;
+        margin-top: 100px;
+}
+
+
+.hsprite {
+	background: url('../wireframe_imgs/css_sprites.png') no-repeat -2025px -555px;
+	height: 350px;
+        width: 450px;
+        margin-left: 120px;
+        margin-bottom: 120px;
+        margin-top: 100px;
+}
+
+.wsprite {
+	background: url('../wireframe_imgs/css_sprites.png') no-repeat -2023px -58px;
+	width: 400px;
+	height: 450px;
+        margin-left: 50px;
+        margin-top: 100px;
 }
