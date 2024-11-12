@@ -1,0 +1,52 @@
+body {
+    background: linear-gradient(to right, #32612D, #74B72E, #AEF359); 
+    background-attachment: fixed;
+    font-family: Verdana, sans-serif;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    
+}
+
+h2 {
+     font-size: 25px;
+}
+
+p {
+    font-size: 13px;
+}
+
+a {
+    color: #FFFFFF; 
+    text-decoration: none;
+}
+
+a:hover {
+    color: #AAFC58; 
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+div {
+    margin: 20px;
+    padding: 20px;
+}
+
+.hsprite {
+	background: url('../wireframe_imgs/css_sprites.png') no-repeat -2025px -555px;
+	float: right;
+        height: 350px;
+        width: 450px;
+        margin-left: 120px;
+        margin-bottom: 120px;
+}
