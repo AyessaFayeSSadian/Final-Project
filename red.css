@@ -1,0 +1,88 @@
+body {
+    background-color: #CEDCCA;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: #69A765;
+    text-align: left;
+    font-size: 55px;
+    font-family: "Lucida Console", monospace; 
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+h2 {
+    color: white;
+    text-align: left;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    color: white;
+    text-align: left;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px;
+}
+
+.image-container a {
+    width: 33%; 
+    text-align: center;
+}
+
+img {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+}
+
+.bg-vegetables {
+    width: 450px; height: 450px;
+    background: url('../wireframe_imgs/css_sprites.png');
+    float: right;
+    margin-left: 120px;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    background-position: -10px -480px;
+}
+
+.bg-green_plus {
+    width: 450px; height: 450px;
+    background: url('../wireframe_imgs/css_sprites.png');
+    float: right;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    background-position: -480px -10px;
+}
+
+.bg-cws {
+    width: 450px; height: 450px;
+    background: url('../wireframe_imgs/css_sprites.png');
+    float: right;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    background-position: -10px -10px;
+}
+
+.bg-vegetables:hover {
+    transform: scale(1.1); 
+    opacity: 0.8;
+}
+
+.bg-green_plus:hover {
+    transform: scale(1.1); 
+    opacity: 0.8;
+}
+
+.bg-cws:hover {
+    transform: scale(1.1); 
+    opacity: 0.8;
+}
+
+::selection {
+    background-color: #A8D5BA; 
+}

@@ -1,0 +1,42 @@
+body {
+    background: linear-gradient(to right, #741712, #990402, #BC5448, #0000);
+    background-attachment: fixed;
+    color:white;
+    margin-right:300px;
+    margin-left:300px;
+   }
+
+:root {
+    font-family: "Lucida Console", monospace;
+}
+
+    h1 {
+      margin-top:70px;
+      font-size:55px;
+    }
+
+    h2 {
+      font-size:35px;
+    }
+
+    li { 
+      font-size:20px;
+    }
+
+ #rcorners {
+            padding: 15px;         
+            border-radius: 10px;     
+            width: 850px; 
+            height: 350px;     
+            margin: 20px; 
+            border: 2px solid #FAF9F6;   
+            background: url('../wireframe_imgs/poverty_bg.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;  
+            transition: transform 0.5s ease, opacity 0.5s ease;
+        }
+
+#rcorners:hover {
+    transform: scale(1.1); 
+}
+       
