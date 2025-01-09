@@ -1,0 +1,135 @@
+body {
+    background: linear-gradient(to right, #741712, #990402, #BC5448, #0000);
+    background-attachment: fixed;
+    color:white;
+    div {
+          margin: 50px;
+          padding: 50px;
+          }
+   }
+
+section{
+  width: 50%;
+  float: left;
+  margin-bottom: 20em;
+}
+
+aside{
+  width: 50%;
+  float: right;
+  margin-bottom: 20em;
+}
+h1 {
+    text-align: left;
+    font-size: 74px;
+    font-family:arial black;
+    margin-top: 40px;
+    margin-left: 110px;
+    margin-bottom: -0.20px;
+  }
+
+h2 {
+    float: left;
+    font-size: 44px;
+    font-family:arial;
+    margin-left: 130px;
+  }
+
+  p {
+    clear: both;
+    font-size: 24px;
+    font-family:verdana;
+    margin-left: 130px;
+    width: 24em;
+  }
+
+  img[alt="Gift Box"] {
+    position: relative;
+    float: right;
+    height: 550px;
+    width: 570px;
+    margin-top: 5em;
+    transform: rotate(-16deg);
+    
+
+    }
+    
+  figure figcaption {
+    position: absolute;
+    float: right;
+      margin-top: 10px;
+      font-size: 1rem;
+      color: #FFFFFF;
+      top: 50em;
+      right: 10em;
+  }
+
+audio {
+        margin-left: 130px;
+        margin-top: 30px;
+     }
+
+/*nav*/
+nav ul {
+    list-style-type: none;
+    margin-right: 150px;
+    padding: 0;
+    overflow: hidden;
+    float:right;
+    font-size: 15px;
+  }
+  
+  nav li {
+    float: right;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    background-color: #900D09;
+    font-size: 20px;
+  }
+  
+  nav li:last-child {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    float:right;
+    font-size: 20px;
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float:right;
+    font-size: 20px;
+  
+  }
+  
+  nav li a:hover:not(.active) {
+    background-color: #BC544B;
+    float:right;
+    font-size: 20px;
+  }
+
+  footer {
+    float:right;
+    background-color: #741712;
+    color: white;
+    margin-top: 40px;
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%
+}
+
+.santa_sprites {
+ background: url('../wireframe_imgs/santa_sprites.png') no-repeat 0 0;
+ width: 2160px;
+ height: 190px;
+ margin-left: 50px;
+ animation: varName 1s steps(2) infinite;
+ }
+ @keyframes varName{
+ from{background-position-x:200px;}
+ to{background-position-x:-170px;}
+ }
