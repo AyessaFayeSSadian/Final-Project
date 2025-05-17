@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<body>
+<link rel="stylesheet" href="R_design.css">
+<h1>Be A Santa Claus!</h1>
+
+<hr>
+
+<p>This website is dedicated to raising awareness and providing relevant information about the effects of poverty, such as not having enough access to food, healthcare, and clean 
+       water. It also offers details about specific charities that you can support to help create a better future for those in need.</p>
+	   
+<hr>
+
+<h3>Sign-up to support us!</h3>
+
+<form action="Repurpo-phone.html" method="get" onsubmit= "return signUp()">
+  <label for="firstname">First Name: <span class="required-asterisk">*</span></label>
+  <input type="text" id="firstname" name="firstname" required>
+  <br><br>
+  <label for="lastname">Last Name: <span class="required-asterisk">*</span></label>
+  <input type="text" id="lastname" name="lastname" required>
+  <br>
+  
+  <p>Select your sex: <span class="required-asterisk">*</span></p>
+  <input type="radio" id="male" name="sex" value="Male" required>
+  <label for="male">Male</label></br>
+  <input type="radio" id="female" name="sex" value="Female">
+  <label for="female">Female</label></br>
+  <input type="radio" id="prefernottosay" name="sex" value="PreferNotToSay">
+  <label for="prefernottosay">Prefer not to say</label>
+  <br><br>
+  
+  <label for="emailaddress">Email Address: <span class="required-asterisk">*</span></label>
+  <input type="text" id="emailaddress" name="emailaddress" required>
+  <br><br>
+  <label for="password">Password: <span class="required-asterisk">*</span></label>
+  <input type="password" id="password" name="password" minlength="8" required>
+  <br><br>
+  <label for="contactnumber">Contact Number:</label>
+  <input type="text" id="contactnumber" name="contactnumber" required>
+  <br><br>
+  <p><label for="reason">Why you're supporting our campaign: <span class="required-asterisk">* </label></p>
+  <textarea id="reason" name="reason" rows="4" cols="50"></textarea>
+  <br><br>
+  <input type="submit" value="Sign-up"> <input type = "reset" value = "Reset">
+</form>
+
+<script src="register.js"></script>
+
+</body>
+</html>

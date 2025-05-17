@@ -1,0 +1,31 @@
+
+  body {
+	background: linear-gradient(to right, #741712, #990402, #BC5448, #0000);
+	margin-left: 80px;
+	margin-right: 80px;
+	color: #FFFFFF;
+}
+
+h1{
+	font-size: 60px;
+	font-color: white;
+    font-weight: 300;
+	text-align: center;
+}
+
+hr {
+	color: #white;
+}
+
+.required-asterisk {
+  color: #FFFFFF;
+  margin-left: 4px;
+}
+
+ 
+
+  
+
+  
+
+
