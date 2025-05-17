@@ -34,13 +34,13 @@ function info(){
 }
 
 function show(){
-	for(var x = 0; x > required.length; x++){
+	for(var x = 0; x < required.length; x++){
 		if(required[x].value===""||required[x].value==undefined){
 			req[x].style.display="inline";
 		}
 	}
 
-	for( var x = 0; x<what.length; x++){
+	for( var x = 0; x< what.length; x++){
 		if(!what[x].checked){
 			b++;
 		}
@@ -50,7 +50,6 @@ function show(){
 
 		}
 	}
-
 	if(b==3){
 		document.getElementById("needed").style.display.inline;
 	}
