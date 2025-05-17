@@ -1,5 +1,7 @@
   body {
-    background-image: url('../wireframe_imgs/healthbg.jpg');
+    background-color: #056608; 
+    background: linear-gradient(to right, #056608, #248D27, #43B446);
+    background-attachment: fixed;
     background-repeat: no-repeat;
     font-family: Verdana, sans-serif;
     color: white;

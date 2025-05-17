@@ -1,7 +1,8 @@
 
     body {
-    background-image: url('../wireframe_imgs/waterbg.jpg');
-    background-repeat: no-repeat;
+    background-color: #0771B8; 
+    background: linear-gradient(to right, #0771B8, #0F7AC0, #1E97c4);
+    background-attachment: fixed;
 
     font-family: Verdana, sans-serif;
     color: #FAF9F6;
