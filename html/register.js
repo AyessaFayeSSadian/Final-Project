@@ -4,15 +4,12 @@ let email = document.getElementById("emailaddress");
 let selectSex = "";
 let what = document.getElementsByName("sex")
 let why = document.getElementById("reason");
+var b = 0;
+
+var required=[fname, lname, email, what, why];
+var req = document.getElementsByClassName("required");
 
 function signUp() {
-	
-	for( var x = 0; x<what.length; x++){
-		if(what[x].checked){
-			selectSex = selectSex + what[x].value;
-			break;
-		}
-	}
 	
 	localStorage.setItem("firstname", fname.value);
 	localStorage.setItem("lastname", lname.value);
@@ -35,6 +32,30 @@ function info(){
     document.getElementById("which").innerHTML= "Sex: " + localStorage.getItem("gen");
     document.getElementById("support").innerHTML= "Why I support this campaign: " + localStorage.getItem("reason");
 }
+
+function show(){
+	for(var x = 0; x > required.length; x++){
+		if(required[x].value===""||required[x].value==undefined){
+			req[x].style.display="inline";
+		}
+	}
+
+	for( var x = 0; x<what.length; x++){
+		if(!what[x].checked){
+			b++;
+		}
+		else{
+			selectSex = selectSex + what[x].value;
+			break;
+
+		}
+	}
+
+	if(b==3){
+		document.getElementById("needed").style.display.inline;
+	}
+}
+
 
 
 			
