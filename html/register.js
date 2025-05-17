@@ -1,4 +1,3 @@
-
 let fname = document.getElementById("firstname");
 let lname = document.getElementById("lastname");
 let email = document.getElementById("emailaddress");
