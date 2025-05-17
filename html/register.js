@@ -2,7 +2,7 @@ let fname = document.getElementById("firstname");
 let lname = document.getElementById("lastname");
 let email = document.getElementById("emailaddress");
 let selectSex = "";
-let what = document.getElementsByName("sex")
+let what = document.getElementsByName("sex");
 let why = document.getElementById("reason");
 var b = 0;
 
@@ -35,7 +35,7 @@ function info(){
 
 function show(){
 	for(var x = 0; x < required.length; x++){
-		if(required[x].value===""||required[x].value==undefined){
+		if(required[x].value === "" ||required[x].value == undefined){
 			req[x].style.display="inline";
 		}
 	}
